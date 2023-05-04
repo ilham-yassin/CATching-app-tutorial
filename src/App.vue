@@ -16,7 +16,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <RouterLink class="nav-link active" aria-current="page" to="home">Home</RouterLink>
+                            <RouterLink class="nav-link" aria-current="page" to="home">Home</RouterLink>
                         </li>
                         <li class="nav-item">
                             <RouterLink class="nav-link" aria-current="page" to="about">About</RouterLink>
@@ -40,13 +40,6 @@
 img {
   width: 45px;
   margin: 5px 5px;
-}
-
-.nav-link.active {
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 5px;
-
 }
 
 li {
