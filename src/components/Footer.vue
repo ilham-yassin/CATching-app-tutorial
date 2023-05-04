@@ -16,4 +16,8 @@ h1 {
     margin-left: 50px;
 }
 
+div {
+    background-color:coral;
+}
+
 </style>
