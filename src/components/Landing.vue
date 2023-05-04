@@ -1,8 +1,7 @@
 <template>
     <div id="textcontent">
         <h1>CAT-CHING!</h1>
-        <p>Cat + Kuching, we're a cat adoption shelter aiming to protect, heal and find forever homes for our feline
-            overlords!</p>
+        <p>Cat + Kuching, or the sound of money, Kaching! because our cats are all gold! We're a cat adoption shelter aiming to protect, heal and find forever homes for our feline companions!</p>
         <button id="btnadopt" class="btn btn-primary btn-lg" type="submit">Adopt A Cat </button>
         <button id="btnsignin" type="button" class="btn btn-outline-secondary btn-lg">Sign In</button>
     </div>
@@ -20,7 +19,7 @@
 h1 {
     font-size: 100px;
     font-weight: bold;
-    margin-top: 300px;
+    margin-top: 250px;
     margin-left: 50px;
 }
 
