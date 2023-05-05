@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Footer from "./components/Footer.vue"
 
 </script>
 
@@ -32,10 +33,12 @@
       <router-view :key="$route.path" />
     </slot>
   </div>
+  <slot>
+        <Footer />
+  </slot>
 </template>
 
 <style scoped>
-
 img {
   width: 45px;
   margin: 5px 5px;

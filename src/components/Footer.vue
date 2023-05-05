@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <h1>Footer Here</h1>
+    <div class="text-center p-4" style="background-color: #000">
+        <span>© 2023 Copyright: </span>
+        <a class=" fw-bold" href="">CATching.com</a>
     </div>
 </template>
 
@@ -9,15 +10,11 @@
 </script>
 
 <style scoped>
-
-h1 {
-    font-size: 50px;
-    margin-top: 30px;
-    margin-left: 50px;
+span {
+    color: #fff;
 }
 
-div {
-    background-color:coral;
+a {
+    color: #fff;
 }
-
 </style>
