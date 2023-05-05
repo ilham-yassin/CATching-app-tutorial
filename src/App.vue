@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar.vue"
 
 </script>
 
+<script lang="ts">
+</script>
+
 <template>
   <div id="mainhome">
     <slot>
@@ -14,10 +17,9 @@ import Navbar from "./components/Navbar.vue"
     </slot>
   </div>
   <slot>
-        <Footer />
+    <Footer />
   </slot>
 </template>
 
 <style scoped>
-
 </style>
