@@ -1,6 +1,6 @@
 <template>
     <div id="textcontent">
-        <h1>CAT-CHING!</h1>
+        <h1>CATching!</h1>
         <p>Cat + Kuching, or the sound of money, Kaching! because our cats are all gold! We're a cat adoption shelter aiming to protect, heal and find forever homes for our feline companions!</p>
         <button id="btnadopt" class="btn btn-primary btn-lg" type="submit">Adopt A Cat </button>
         <button id="btnsignin" type="button" class="btn btn-outline-secondary btn-lg">Sign In</button>

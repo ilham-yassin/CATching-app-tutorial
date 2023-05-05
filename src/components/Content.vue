@@ -2,6 +2,10 @@
     <div id="headline">
         <h2>Here Are Some Cats In Our Shelter</h2>
         <p>Please click on the Adopt A Cat button above to find out their availability.</p>
+        <!-- <CatCard  />
+        <CatShow /> -->
+    </div>
+    <div id="cardlist">
         <CatCard  />
     </div>
 </template>
@@ -13,6 +17,11 @@
 <style scoped>
 
 #headline {
+    text-align: center;
+}
+
+#cardlist {
+    
     text-align: center;
 }
 
