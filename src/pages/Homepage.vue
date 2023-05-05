@@ -5,12 +5,16 @@
     <slot>
         <Content />
     </slot>
+    <slot>
+        <CallToAction />
+    </slot>
 
 </template>
 
 <script setup lang="ts">
 import Landing from "../components/Landing.vue"
 import Content from "../components/Content.vue"
+import CallToAction from "../components/CallToAction.vue"
 </script>
 
 
