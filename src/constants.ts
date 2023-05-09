@@ -1,0 +1,4 @@
+export default {
+    API_KEY_API_NINJAS: 'Rfv16IchemAlNrU6Mx4keA==D2KoBR8VJFV9r3Zf',
+    API_KEY_CAT_API: 'live_7mZYynZ9aRKJuLWWcHFsT9j1uM83YNoD3fk93mBLpISQE8N4I2iyoNbTb8KOtvAn'
+}
