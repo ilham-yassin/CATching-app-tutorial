@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="calltoaction">
-            <h1>Get Involved At CATching!</h1>
+            <h1>Get Involved With CATching!</h1>
             <p>Join CAT as a volunteer, donor, or foster family and help save lives with your time, love, cash donation,
                 supplies. Your worthwhile support and contribution to CAT gives our precious cats a fresh start, essential
                 vet

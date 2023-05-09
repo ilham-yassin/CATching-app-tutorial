@@ -3,8 +3,6 @@ import Homepage from '../pages/Homepage.vue'
 import About from '../pages/About.vue'
 import ContactUs from '../pages/ContactUs.vue'
 import Gallery from '../pages/Gallery.vue'
-import Programs from '../pages/Programs.vue'
-import Services from '../pages/Services.vue'
 
 
 export const routes = [
@@ -18,18 +16,6 @@ export const routes = [
 		path: '/home',
 		name: 'home',
 		component: Homepage,
-	},
-
-	{
-		path: '/programs',
-		name: 'programs',
-		component: Programs,
-	},
-
-	{
-		path: '/services',
-		name: 'services',
-		component: Services,
 	},
 
 	{
@@ -48,7 +34,7 @@ export const routes = [
 
 const router = createRouter({
 	history: createWebHistory(),
-	routes, //same --- > routes:routes
+	routes,
 })
 
 export default router;
