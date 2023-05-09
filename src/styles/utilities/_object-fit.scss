@@ -1,0 +1,10 @@
+$utilities: map-merge(
+    $utilities,
+    (
+        "object-fit": (
+            property: object-fit,
+            class: object-fit,
+            values: fill cover contain none scale-down,
+        )
+    )
+);
