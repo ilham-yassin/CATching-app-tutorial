@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import { useCatsStore } from '../store';
+import { useCatsStore } from '../../store';
 
 const catsStore = useCatsStore();
 

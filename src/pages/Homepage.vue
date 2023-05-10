@@ -17,9 +17,8 @@
 <script setup lang="ts">
 import Landing from "../components/Landing.vue"
 import CallToAction from "../components/CallToAction.vue"
-import AddCatSearch from "../components/AddCatSearch.vue"
 import { useCatsStore } from "../store"
-import { CatCard } from "../components"
+import { CatCard, AddCatSearch } from "../components"
 
 useCatsStore().load()
 </script>
