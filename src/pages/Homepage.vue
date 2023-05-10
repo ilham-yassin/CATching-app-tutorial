@@ -1,24 +1,24 @@
 <template>
-        <div class="container">
-            <Landing></Landing>
-            <div id="headline">
-                <h2>Here Are Some Cat Breeds In Our Shelter</h2>
-                <p>Please click on the Adopt A Cat button above to find out more.</p>
-            </div>
-            <div id="cardlist">
-                <CatCard></CatCard>
-                <AddCatSearch class="py-5"></AddCatSearch>
-            </div>
-            
+    <div class="container">
+        <Landing></Landing>
+        <div id="headline">
+            <h2>Here Are Some Cat Breeds In Our Shelter</h2>
+            <p>Please click on the Adopt A Cat button above to find out more.</p>
         </div>
-        <CallToAction></CallToAction>
+        <div id="cardlist">
+            <CatCard></CatCard>
+            <AddCatSearch class="py-5"></AddCatSearch>
+        </div>
+        <MultipleCats></MultipleCats>
+    </div>
+    <CallToAction></CallToAction>
 </template>
 
 <script setup lang="ts">
 import Landing from "../components/Landing.vue"
 import CallToAction from "../components/CallToAction.vue"
 import { useCatsStore } from "../store"
-import { CatCard, AddCatSearch } from "../components"
+import { CatCard, AddCatSearch, MultipleCats } from "../components"
 
 useCatsStore().load()
 </script>

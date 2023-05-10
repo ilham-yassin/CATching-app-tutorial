@@ -25,5 +25,6 @@ export const useCatsStore = defineStore('cats', {
 
             this.cats.push(...response.data);
         }
+        
     }
 })

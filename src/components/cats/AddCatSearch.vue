@@ -1,11 +1,7 @@
 <template>
-    <form @submit="onSubmit" class="vstack gap-3">
-        <TextField
-            id="txt-catName"
-            name="catName"
-            placeholder="Search for a Cat Breed"
-        ></TextField>
-        <button class="btn btn-primary">Search</button>
+    <form @submit="onSubmit" class="vstack gap-3 mb-3">
+        <TextField id="txt-catName" name="catName" placeholder="Search for a Cat Breed"></TextField>
+        <button id="searchBtn" class="btn btn-primary">Search</button>
     </form>
 </template>
 
@@ -22,11 +18,14 @@ configure({
     validateOnBlur: true
 })
 
-const { 
-    handleSubmit ,
+const {
+    handleSubmit,
     resetForm
 } = useForm<AddCatSearchFields>({
     validationSchema: addCatFormFieldsSchema,
+    initialValues: {
+        catName: ''
+    }
 });
 
 
@@ -43,7 +42,7 @@ const onSubmit = handleSubmit(
 </script>
 
 <style scoped>
-.btn {
+#searchBtn {
     background-color: #000;
     border-color: #000;
     color: #fff;
