@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-for="(field, index) of fields" class="hstack gap-3 mb-3">
+        <div v-for="(_, index) of fields" class="hstack gap-3 mb-3">
             <TextField
                 style="width: 100%;"
                 :name="`${path}[${index}]`"
@@ -27,10 +27,13 @@
 import { toRef } from 'vue';
 import { TextField } from '..';
 import { useFieldArray } from 'vee-validate';
+
 interface Props {
     path: string;
 }
+
 const props = defineProps<Props>();
+
 const {
     fields,
     push,
