@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h1 class="fw-bold text-center mt-4 mb-0 ms-auto">Cats For Days!</h1>
-        <hr class="mt-3 mb-5">
+        <h1 class="fw-bold text-center mt-4 mb-0">Cats For Days!</h1>
+        <hr class="mt-3 mb-0">
     </div>
 
     <div class="gallery">
@@ -28,7 +28,7 @@ export default (await import('vue')).defineComponent({
         };
     },
     mounted(): void {
-        const limit = 30;
+        const limit = 32;
 
         axios.get(`https://api.thecatapi.com/v1/images/search?limit=${limit}`, {
             headers: {
@@ -56,6 +56,8 @@ export default (await import('vue')).defineComponent({
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
+    padding: 0px 100px;
+    margin: 50px 0px;
 }
 
 .image {
