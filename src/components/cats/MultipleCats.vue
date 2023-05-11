@@ -30,9 +30,6 @@ const {
     resetForm
 } = useForm<AddMultipleCatsFormFields>({
     validationSchema: addMultipleCatsFormFieldsSchema,
-    // initialValues: {
-    //     catNames: []
-    // }
 })
 
 const onSubmit = handleSubmit(
