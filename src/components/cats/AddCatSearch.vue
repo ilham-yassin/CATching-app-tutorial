@@ -1,8 +1,10 @@
 <template>
+    <div class="container justify-content-center" style="max-width: 41rem;">
     <form @submit="onSubmit" class="vstack gap-3 mb-3">
         <TextField id="txt-catName" name="catName" placeholder="Search for a Cat Breed"></TextField>
         <button id="searchBtn" class="btn btn-primary">Search</button>
     </form>
+</div>
 </template>
 
 <script setup lang="ts">
